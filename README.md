@@ -1,2 +1,2 @@
 # CatsApp
-In this tutorial, we are going to fetch JSON data from an API and show it in a list view in SwiftUI. I will discuss how I structure my code base with MVVM (Model - View Model - View). Also I am including an extra layer for the networking logic because it helps make my code more reusable and write unit tests. You will also learn about error handling  with URLSession and how to show error information to the user. 
+An app that fetches JSON data from an API and show it in a list view in SwiftUI using the  MVVM (Model - View Model - View) architecture. It has a networking logic to helps make the code more reusable and write unit tests. It has error handling  with URLSession and how to show error information to the user. 
