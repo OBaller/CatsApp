@@ -21,6 +21,8 @@
 		C5938358282D43B600E4872A /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5938357282D43B600E4872A /* APIServiceProtocol.swift */; };
 		C593835A282D442200E4872A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5938359282D442200E4872A /* APIService.swift */; };
 		C593835C282D45D800E4872A /* BreedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C593835B282D45D800E4872A /* BreedFetcher.swift */; };
+		C593835E282D4FC900E4872A /* BreedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C593835D282D4FC900E4872A /* BreedRow.swift */; };
+		C5938360282D4FE500E4872A /* BreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C593835F282D4FE500E4872A /* BreedDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		C5938357282D43B600E4872A /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
 		C5938359282D442200E4872A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		C593835B282D45D800E4872A /* BreedFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedFetcher.swift; sourceTree = "<group>"; };
+		C593835D282D4FC900E4872A /* BreedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRow.swift; sourceTree = "<group>"; };
+		C593835F282D4FE500E4872A /* BreedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				C593834D282D410800E4872A /* BreedListView.swift */,
+				C593835D282D4FC900E4872A /* BreedRow.swift */,
+				C593835F282D4FE500E4872A /* BreedDetailView.swift */,
 				C593834F282D41FE00E4872A /* ErrorView.swift */,
 				C5938351282D420600E4872A /* LoadingView.swift */,
 			);
@@ -209,8 +215,10 @@
 				C5938354282D431800E4872A /* APIError.swift in Sources */,
 				C593835C282D45D800E4872A /* BreedFetcher.swift in Sources */,
 				C5938352282D420600E4872A /* LoadingView.swift in Sources */,
+				C5938360282D4FE500E4872A /* BreedDetailView.swift in Sources */,
 				C5938358282D43B600E4872A /* APIServiceProtocol.swift in Sources */,
 				C5938338282D1F7200E4872A /* CatsAppApp.swift in Sources */,
+				C593835E282D4FC900E4872A /* BreedRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
