@@ -41,7 +41,7 @@ struct Breed: Codable, CustomStringConvertible, Identifiable {
         
         let hairless = try values.decode(Int.self, forKey: .isHairless)
         isHairless = hairless == 1
-        
+         
         image = try values.decodeIfPresent(BreedImage.self, forKey: .image)
     }
     
