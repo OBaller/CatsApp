@@ -16,7 +16,7 @@ struct BreedListView: View {
         } else {
             return breeds.filter {
                 $0.name.lowercased().contains(searchText.lowercased())
-            }
+            }.sorted()
         }
     }
     

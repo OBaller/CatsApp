@@ -7,7 +7,14 @@
 
 import Foundation
 
-struct Breed: Codable, CustomStringConvertible, Identifiable {
+struct Breed: Codable, CustomStringConvertible, Identifiable, Comparable {
+    static func == (lhs: Breed, rhs: Breed) -> Bool {
+        return lhs.name < rhs.name
+    }
+    static func <(lhs: Breed, rhs: Breed) -> Bool {
+            return lhs.name < rhs.name
+        }
+    
     let id: String
     let name: String
     let temperament: String
@@ -56,7 +63,6 @@ struct Breed: Codable, CustomStringConvertible, Identifiable {
         self.isHairless = isHairless
     }
     
- 
     static func example1() -> Breed {
         return Breed(name: "Abyssinian",
                      id: "abys",
